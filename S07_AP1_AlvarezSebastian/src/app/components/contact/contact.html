@@ -1,0 +1,40 @@
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-box">
+      
+      <div class="contact-info">
+        <h2>¿Listo para el <span class="highlight">Siguiente Nivel</span>?</h2>
+        <p>Únete a nuestra comunidad y sé el primero en probar los lanzamientos exclusivos de 2026.</p>
+        <div class="info-details">
+          <p>📍 Cañete, Lima - Perú</p>
+          <p>📧 soporte@alvarezgames.com</p>
+          <p>🎮 Discord: AlvarezGames_Oficial</p>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form (submit)="onSubmit($event)">
+          <div class="input-group">
+            <input type="text" placeholder="Nombre completo" required>
+          </div>
+          <div class="input-group">
+            <input type="email" placeholder="Correo electrónico" required>
+          </div>
+          <div class="input-group">
+            <select required>
+              <option value="" disabled selected>Plataforma favorita</option>
+              <option value="pc">PC (Master Race)</option>
+              <option value="ps5">PlayStation 5</option>
+              <option value="xbox">Xbox Series X</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <textarea placeholder="Cuéntanos qué juegos te apasionan..." rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Enviar Solicitud</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
